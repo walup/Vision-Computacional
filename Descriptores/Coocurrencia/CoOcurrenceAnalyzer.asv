@@ -1,0 +1,18 @@
+classdef CoOcurrenceAnalyzer
+   properties
+       
+   end
+   
+   methods
+       %Obtain the co ocurrence matrix for binary image
+       function mat = getBinaryCoMatrix(img)
+           
+           %The first thing we want to know is how many 
+           minVal = im2bw(img);
+           
+       end
+       
+   end
+    
+    
+end
